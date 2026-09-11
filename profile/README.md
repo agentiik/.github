@@ -21,6 +21,7 @@ runtime, security, deployment profiles and MCP — is at **<https://agentiik.git
 | [console](https://github.com/agentiik/console) | The web console. |
 | [ios](https://github.com/agentiik/ios) · [android](https://github.com/agentiik/android) | The mobile applications. |
 | [deploy](https://github.com/agentiik/deploy) | Compose stacks, installer, migration notes. |
+| [terraform-provider-agentiik](https://github.com/agentiik/terraform-provider-agentiik) | Namespaces, workflow repositories, grants and tokens, as HCL. |
 | [agentiik.github.io](https://github.com/agentiik/agentiik.github.io) | The site and the documentation. |
 
 ### Licensing
