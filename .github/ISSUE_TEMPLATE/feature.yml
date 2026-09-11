@@ -1,0 +1,25 @@
+name: Feature
+description: Something the project should do and does not.
+labels: [feature]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do, and where it stops. Not the feature yet — the situation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would solve it
+      description: How it would appear in the workflow language, the API or the console, as concretely as you can put it.
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What you do today
+      description: The workaround, if there is one, and why it is not enough.
+    validations:
+      required: false

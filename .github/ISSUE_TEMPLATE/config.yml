@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a vulnerability
+    url: https://github.com/agentiik/.github/blob/main/SECURITY.md
+    about: Never in a public issue. This says what to do instead.
+  - name: Read the specification
+    url: https://agentiik.github.io/docs
+    about: Scope, the workflow language, the brick contract, access control, the runtime, security, deployment, MCP.

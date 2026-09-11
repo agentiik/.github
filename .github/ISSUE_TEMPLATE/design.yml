@@ -1,0 +1,30 @@
+name: Design question
+description: An argument against something in the specification, or a case it does not handle.
+labels: [design]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The specification is at <https://agentiik.github.io/docs>. Disagreement with it is
+        welcome and this is where it goes.
+  - type: input
+    id: section
+    attributes:
+      label: Which part
+      description: The section, and the sentence if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What it gets wrong
+      description: The case it does not handle, the boundary drawn in the wrong place, or the cost it will carry later.
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: What you would do instead
+      description: Including what your alternative gives up, since every one of them gives up something.
+    validations:
+      required: false

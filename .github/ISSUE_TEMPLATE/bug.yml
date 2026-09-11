@@ -1,0 +1,38 @@
+name: Bug
+description: Something behaves differently from what the specification says.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Never use this form for a vulnerability. [SECURITY.md](https://github.com/agentiik/.github/blob/main/SECURITY.md)
+        says what to do instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you observed, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The smallest sequence that shows it. A workflow file, a command, a request.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: A tag, or the commit you are on.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Deployment profile, container runtime, operating system, anything else that turned out to matter.
+    validations:
+      required: false
