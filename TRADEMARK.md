@@ -22,8 +22,8 @@ The name **Agentiik** and the Agentiik mark stay with the project.
 - Use the name or the mark as, or inside, your own product name, company name, domain
   name or application name, or in a way that suggests the project endorses or maintains
   what you are offering.
-- Alter the mark — recolour it outside the palette, redraw it, set it in another typeface,
-  or combine it with another mark — and still call it the Agentiik mark.
+- Alter the mark (recolour it outside the palette, redraw it, set it in another typeface,
+  or combine it with another mark) and still call it the Agentiik mark.
 
 ## The short version
 

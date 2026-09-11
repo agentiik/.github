@@ -6,7 +6,7 @@ body:
     id: problem
     attributes:
       label: The problem
-      description: What you are trying to do, and where it stops. Not the feature yet — the situation.
+      description: What you are trying to do, and where it stops. Not the feature yet: the situation.
     validations:
       required: true
   - type: textarea

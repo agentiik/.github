@@ -6,8 +6,8 @@ cloning one from a forge, so a version cannot drift beneath a run, an invalid wo
 cannot be pushed at all, and repository access is the permission model that already
 exists rather than a second one to reconcile with it.
 
-The specification — scope, the workflow language, the brick contract, access control, the
-runtime, security, deployment profiles and MCP — is at **<https://agentiik.github.io/docs>**.
+The documentation (scope, the workflow language, the brick contract, access control, the
+runtime, security, deployment profiles and MCP) is at **<https://agentiik.github.io/docs>**.
 
 ### Repositories
 
@@ -26,7 +26,7 @@ runtime, security, deployment profiles and MCP — is at **<https://agentiik.git
 
 ### Licensing
 
-The server is AGPL-3.0-or-later; everything a third party has to embed — the schemas, the
-SDK, the bricks, the tokens, the deployment templates — is Apache-2.0. A brick is not a
+The server is AGPL-3.0-or-later; everything a third party has to embed (the schemas, the
+SDK, the bricks, the tokens, the deployment templates) is Apache-2.0. A brick is not a
 derivative work of the engine. [LICENSING.md](https://github.com/agentiik/.github/blob/main/LICENSING.md)
 sets out the split and the reasoning.

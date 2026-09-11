@@ -6,7 +6,7 @@ the trademark policy, and the issue and pull request templates.
 
 GitHub serves the files at the root of this repository as the default for any repository
 in the organisation that does not carry its own. The licence file is the one thing that
-is deliberately not shared, because it is not uniform — [LICENSING.md](LICENSING.md) says
+is deliberately not shared, because it is not uniform: [LICENSING.md](LICENSING.md) says
 why.
 
 | File | What it is |
