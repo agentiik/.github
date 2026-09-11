@@ -5,12 +5,15 @@ the security policy, the code of conduct, the contribution guide, the licensing 
 the trademark policy, and the issue and pull request templates.
 
 GitHub serves the files at the root of this repository as the default for any repository
-in the organisation that does not carry its own. The licence file is the one thing that
+in the organisation that does not carry its own. CLAUDE.md is the exception: GitHub does
+not distribute it, and it has to be read from a clone rather than from the web, so a copy
+is pushed to each repository and this one is the source. The licence file is the one thing that
 is deliberately not shared, because it is not uniform: [LICENSING.md](LICENSING.md) says
 why.
 
 | File | What it is |
 | --- | --- |
+| [CLAUDE.md](CLAUDE.md) | How to work in this organisation, for anyone using Claude Code. Distributed to every repository from here. |
 | [profile/README.md](profile/README.md) | The organisation's public profile page. |
 | [SECURITY.md](SECURITY.md) | How to report a vulnerability, and what happens next. |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Contributor Covenant 2.1. |
