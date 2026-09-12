@@ -2,8 +2,9 @@
 
 This guide covers every repository in the `agentiik` organisation.
 
-The project is unreleased and the specification is ahead of the code. The most useful
-contribution right now is an argument against something in the specification at
+The specification is ahead of the code, and will be for a while: the documentation
+describes the whole engine and the code has reached the first release of it. The most
+useful contribution right now is an argument against something in the specification at
 <https://agentiik.github.io/docs>: a case it does not handle, a boundary drawn in the
 wrong place, a decision that will cost more later than it saves now.
 
