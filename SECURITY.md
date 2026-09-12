@@ -26,14 +26,20 @@ possible where a fix cannot be made safely in time, and is agreed with the repor
 rather than announced to them.
 
 Advisories are published against the affected repository, with an identifier assigned
-where one is warranted, and the fixed versions named per component rather than for the
-project as a whole, because the components release independently. Reporters are credited
-by the name they ask for, or not at all if they prefer.
+where one is warranted, and name the component, because the component is what decides
+whether an installation was exposed. The fixed version is one number for the project as a
+whole: every repository carries the same version and is tagged at the same moment, so
+there is no per-component version for an advisory to name. Reporters are credited by the
+name they ask for, or not at all if they prefer.
 
 ## Supported versions
 
-While the project is unreleased, the default branch is what is supported. Once versions
-are tagged, this section will name them.
+The most recent release is what is supported. While the project is at `0.y.z` it is the
+most recent `0.y.z`, and a fix ships in the next release rather than as a patch to an
+older one: <https://agentiik.github.io/docs#versioning> sets out what a `0.y.z` release
+promises, which is nothing beyond itself. That changes at `1.0.0`.
+
+The default branch is where a fix lands first, and it is not a release.
 
 ## Scope
 
