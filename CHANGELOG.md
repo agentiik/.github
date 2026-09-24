@@ -6,6 +6,10 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
+## Unreleased
+
+- A thirteenth repository, `homebrew-tap`, holds the Homebrew formulae. CLAUDE.md, LICENSING.md and the organisation profile name it.
+
 ## v0.1.2, 2026-09-13
 
 Nothing changed here. The version moves because every repository carries the same one, which [Versioning](https://agentiik.github.io/docs#versioning) sets out.
