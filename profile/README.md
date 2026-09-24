@@ -22,6 +22,7 @@ runtime, security, deployment profiles and MCP) is at **<https://agentiik.github
 | [ios](https://github.com/agentiik/ios) · [android](https://github.com/agentiik/android) | The mobile applications. |
 | [deploy](https://github.com/agentiik/deploy) | Compose stacks, installer, migration notes. |
 | [terraform-provider-agentiik](https://github.com/agentiik/terraform-provider-agentiik) | Namespaces, workflow repositories, grants and tokens, as HCL. |
+| [homebrew-tap](https://github.com/agentiik/homebrew-tap) | `brew install agentiik/tap/agk`, and the server programs with it. |
 | [agentiik.github.io](https://github.com/agentiik/agentiik.github.io) | The site and the documentation. |
 
 ### Licensing
