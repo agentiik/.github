@@ -6,7 +6,7 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
-## Unreleased
+## v0.2.2, 2026-09-26
 
 - `RELEASING.md` runs the site's Publish workflow after the tag, and checks the published images and the single-host installation.
 
