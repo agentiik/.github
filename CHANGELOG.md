@@ -6,6 +6,10 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
+## Unreleased
+
+- `RELEASING.md` runs the site's Publish workflow after the tag, and checks the published images and the single-host installation.
+
 ## v0.2.1, 2026-09-26
 
 Nothing changed here. The version moves because every repository carries the same one, which [Versioning](https://agentiik.github.io/docs#versioning) sets out.
