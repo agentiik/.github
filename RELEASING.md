@@ -24,6 +24,9 @@ Every repository of the organisation is tagged with the same version at the same
 
 | Check | How |
 | --- | --- |
+| The site serves the new release | the Publish workflow of `agentiik.github.io` does not run on a tag, and `/docs/` shows the latest tag it saw: run it from `main` (`gh workflow run publish.yml --repo agentiik/agentiik.github.io --ref main`), then load https://agentiik.github.io/docs/ and read the version Get started prints |
+| The images are published | `ghcr.io/agentiik/api`, `controller` and `runner` answer an anonymous pull at the version and at `latest`, on one digest |
+| The single-host installation runs as written | the `single-host` workflow of `agentiik/deploy`, run on `main` after the tag, uses the published images and the README verbatim |
 | The install a person does works | `homebrew-tap`'s `as-installed` job, run by the push to `main` and by the tag, installs both formulae from GitHub and checks each program names the tag |
 | This machine installs what the README says | the local tap is the GitHub one (`git -C "$(brew --repo agentiik/tap)" remote -v`), then `brew update && brew upgrade agentiik/tap/agk agentiik/tap/agentiik` and `agk --version` |
 | The milestone is closed and the board says Done | `v0.y.z` milestones closed in all thirteen repositories; nothing closed on the project is left in another status |
