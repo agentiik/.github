@@ -9,6 +9,7 @@ Every repository of the project carries the same version and is tagged at the sa
 ## v0.2.0, 2026-09-26
 
 - A thirteenth repository, `homebrew-tap`, holds the Homebrew formulae. CLAUDE.md, LICENSING.md and the organisation profile name it.
+- `RELEASING.md`: what is checked before, at and after a tag, so that the documentation, the recordings and the Homebrew install name the release being tagged.
 
 ## v0.1.2, 2026-09-13
 
