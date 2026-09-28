@@ -6,6 +6,10 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
+## v0.3.0, 2026-09-28
+
+- `RELEASING.md`: the images checked after the tag include `postgres-upgrade`, and `openapi.json` names the release before it.
+
 ## v0.2.5, 2026-09-26
 
 - Nothing changed here. The version moves because every repository carries the same one, which [Versioning](https://agentiik.github.io/docs#versioning) sets out.

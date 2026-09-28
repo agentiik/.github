@@ -13,6 +13,7 @@ Every repository of the organisation is tagged with the same version at the same
 | Every README's status says what the release does | `agentiik` above all: what runs, what still refuses and why |
 | The documentation of everything merged is on the site | nothing left parked; the last pull request of documentation is merged |
 | The vendored schemas equal the schemas repository | `internal/fixtures/testdata` of `agentiik` against `schemas` `main` |
+| The API document names the release | `info.version` of the schemas repository's `openapi.json` is the version without its `v`, which is how a reader of the document knows the release it describes |
 | The previous release upgrades to this one with `compose.yaml` and `.env` alone | the `upgrade` job of deploy's single-host workflow, on `main`: it installs the previous release, runs a workflow, upgrades, and checks the old token, the old run and a new run |
 | Every `CHANGELOG.md` has its version's entry, and no `Unreleased` left | merged in all thirteen repositories before any tag |
 
@@ -26,7 +27,7 @@ Every repository of the organisation is tagged with the same version at the same
 | Check | How |
 | --- | --- |
 | The site serves the new release | the Publish workflow of `agentiik.github.io` does not run on a tag, and `/docs/` shows the latest tag it saw: run it from `main` (`gh workflow run publish.yml --repo agentiik/agentiik.github.io --ref main`), then load https://agentiik.github.io/docs/ and read the version Get started prints |
-| The images are published | `ghcr.io/agentiik/api`, `controller` and `runner` answer an anonymous pull at the version and at `latest`, on one digest |
+| The images are published | `ghcr.io/agentiik/api`, `controller`, `runner` and `postgres-upgrade` answer an anonymous pull at the version and at `latest`, on one digest |
 | The single-host installation runs as written | the `single-host` workflow of `agentiik/deploy`, run on `main` after the tag, uses the published images and the README verbatim |
 | The install a person does works | `homebrew-tap`'s `as-installed` job, run by the push to `main` and by the tag, installs both formulae from GitHub and checks each program names the tag |
 | This machine installs what the README says | the local tap is the GitHub one (`git -C "$(brew --repo agentiik/tap)" remote -v`), then `brew update && brew upgrade agentiik/tap/agk agentiik/tap/agentiik` and `agk --version` |
