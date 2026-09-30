@@ -2,7 +2,7 @@
 
 A multi-user workflow engine: every brick is an ephemeral OCI container, every workflow is a git repository whose `agentiik.yaml` describes a directed acyclic graph, and one installation serves many users through namespaces, sharing and named roles.
 
-This file is the same in every repository of the organisation that is not archived. Its source is `agentiik/.github/CLAUDE.md` and it is distributed from there, so edit it in that repository and never in a copy.
+This file is the same in all twelve repositories of the organisation. Its source is `agentiik/.github/CLAUDE.md` and it is distributed from there, so edit it in that repository and never in a copy.
 
 ## The documentation is the authority
 
@@ -61,7 +61,7 @@ Every repository carries the same version, tagged at the same moment, released t
 | `agentiik` | The core in Go: graph evaluator, container driver, controller, HTTP API, runner, `agk`, and the web console in TypeScript, which the API serves. AGPL-3.0-or-later. |
 | `schemas` | The workflow, brick and envelope schemas, and the OpenAPI document. Every keyword carries a `description` and `examples`, and the build fails without them, because the language reference and `workflow.language` are generated from here. |
 | `bricks`, `brick-sdk` | The standard catalog and the optional helpers. A brick is not a derivative work of the engine. |
-| `design`, `ios`, `android` | The tokens and the two mobile clients. `console` held the web console until it moved into `agentiik`, and is archived once `v0.5.0` is tagged. |
+| `design`, `ios`, `android` | The tokens and the two mobile clients. |
 | `deploy`, `terraform-provider-agentiik` | Compose stacks and the provider. |
 | `homebrew-tap` | The Homebrew formulae: `agk` alone, and the server programs with it. |
 | `agentiik.github.io` | This documentation and the roadmap. |
