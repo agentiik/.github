@@ -6,6 +6,11 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
+## v0.5.0, 2026-09-30
+
+- The web console moves into `agentiik`, which the API serves it from, and the organisation counts twelve repositories, the console's deleted: `CLAUDE.md`, `LICENSING.md`, `RELEASING.md` and the profile name the twelve, and `RELEASING.md` checks the images `ghcr.io/agentiik/agentiik`, `runner` and `postgres-upgrade`, with `api` and `controller` in place of `agentiik` through `v0.5.0`.
+- `CLAUDE.md` counts the roadmap as it stands at v0.5.0: 685 tasks in sixty-three groups, the three added settling how an event is published, heard and fills a run.
+
 ## v0.4.0, 2026-09-30
 
 - `CLAUDE.md` counts the roadmap as it stands at v0.4.0: 673 tasks in sixty-two groups.
