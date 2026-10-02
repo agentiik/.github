@@ -6,6 +6,10 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
+## v0.6.0, 2026-10-02
+
+- Nothing changed here. The version moves because every repository carries the same one, which [Versioning](https://agentiik.github.io/docs#versioning) sets out.
+
 ## v0.5.0, 2026-09-30
 
 - The web console moves into `agentiik`, which the API serves it from, and the organisation counts twelve repositories, the console's deleted: `CLAUDE.md`, `LICENSING.md`, `RELEASING.md` and the profile name the twelve, and `RELEASING.md` checks the images `ghcr.io/agentiik/agentiik`, `runner` and `postgres-upgrade`, with `api` and `controller` in place of `agentiik` through `v0.5.0`.
