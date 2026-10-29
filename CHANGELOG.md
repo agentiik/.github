@@ -6,7 +6,7 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
-## Unreleased
+## v0.7.0, 2026-10-30
 
 - `CLAUDE.md` no longer counts the roadmap's tasks, groups or Feature issues: the roadmap counts them in each milestone's tally, and the count copied here, 685 tasks, was already 696 at the v0.6.0 documentation. The copies in `agentiik` and `agentiik.github.io`, which still named thirteen repositories and a `console` one, are brought back to this source with the other ten.
 
