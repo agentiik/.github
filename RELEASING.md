@@ -26,7 +26,7 @@ Every repository of the organisation is tagged with the same version at the same
 
 | Check | How |
 | --- | --- |
-| The site serves the new release | the Publish workflow of `agentiik.github.io` does not run on a tag, and `/docs/` shows the latest tag it saw: run it from `main` (`gh workflow run publish.yml --repo agentiik/agentiik.github.io --ref main`), then load https://agentiik.github.io/docs/ and read the version Get started prints |
+| The site serves the new release | the tag of `agentiik.github.io` runs its Publish workflow from `main`, since Pages serves only what `main` deploys, and `/docs/` shows the latest tag that run saw: check the run Publish on tag asked for succeeded (`gh run list --repo agentiik/agentiik.github.io --workflow publish.yml --limit 1`), then load https://agentiik.github.io/docs/ and read the version Get started prints |
 | The images are published | `ghcr.io/agentiik/agentiik`, `runner` and `postgres-upgrade` (`api` and `controller` in place of `agentiik` through `v0.5.0`) answer an anonymous pull at the version and at `latest`, on one digest |
 | The single-host installation runs as written | the `single-host` workflow of `agentiik/deploy`, run on `main` after the tag, uses the published images and the README verbatim |
 | The install a person does works | `homebrew-tap`'s `as-installed` job, run by the push to `main` and by the tag, installs both formulae from GitHub and checks each program names the tag |
