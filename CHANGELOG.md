@@ -6,6 +6,10 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
+## Unreleased
+
+- `CLAUDE.md` names the language tool `workflow_language`, as the user's MCP server lists it from v0.7.2 (agentiik/agentiik#932).
+
 ## v0.7.1, 2026-10-30
 
 - `RELEASING.md` checks that the tag of `agentiik.github.io` published the site, which its `publish-on-tag.yml` now asks for, rather than running Publish by hand after the tag.
