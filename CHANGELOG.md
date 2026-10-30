@@ -6,7 +6,7 @@ Every repository of the project carries the same version and is tagged at the sa
 
 `0.y.z` promises nothing beyond itself: what a release here describes may be gone in the next one.
 
-## Unreleased
+## v0.7.2, 2026-10-30
 
 - `CLAUDE.md` names the language tool `workflow_language`, as the user's MCP server lists it from v0.7.2 (agentiik/agentiik#932).
 
