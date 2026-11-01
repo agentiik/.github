@@ -14,6 +14,7 @@ Every repository of the organisation is tagged with the same version at the same
 | The documentation of everything merged is on the site | nothing left parked; the last pull request of documentation is merged |
 | The vendored schemas equal the schemas repository | `internal/fixtures/testdata` of `agentiik` against `schemas` `main` |
 | The catalog's manifests name the release | every `metadata.version` in `bricks/*/brick.yaml` is the version without its `v`, since the image is published under the tag and the manifest it carries says the same; `bricks`' publish workflow refuses a tag they disagree with |
+| The brick templates `agk` carries equal brick-sdk's | `cmd/agk/internal/templates/copy.sh ../brick-sdk` in `agentiik`, with `brick-sdk` at `main`, changes nothing |
 | The API document names the release | `info.version` of the schemas repository's `openapi.json` is the version without its `v`, which is how a reader of the document knows the release it describes |
 | The previous release upgrades to this one with `compose.yaml` and `.env` alone | the `upgrade` job of deploy's single-host workflow, on `main`: it installs the previous release, runs a workflow, upgrades, and checks the old token, the old run and a new run |
 | Every `CHANGELOG.md` has its version's entry, and no `Unreleased` left | merged in all twelve repositories before any tag |
